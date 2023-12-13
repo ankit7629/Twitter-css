@@ -1,0 +1,260 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* =========left========= */
+.left{
+    width: 23%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 60px;
+   
+}
+
+.left-bar{
+    position: fixed;
+}
+
+#Twitter-icon{
+    color: rgb(25, 97, 192);
+    font-size: 28px;
+}
+
+.Explore{
+    margin-top: 20px;
+    display: flex;    
+}
+
+#Expo-icon{
+    font-size: 22px;
+    margin-right: 10px;   
+}
+
+
+.Settings{
+    margin-top: 15px;
+    display: flex;
+}
+
+.font{
+    font-weight: 50;
+}
+
+#Settings-icon{
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+
+/* =============center======== */
+.center{
+    width: 45%;
+    height: 250vh;
+    border-left: 1px solid rgb(189, 187, 187);
+    border-right: 1px solid rgb(190, 190, 190);
+   
+}
+
+.head{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    /* opacity: 0.9; */
+}
+
+.lorem{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.box{
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.search{
+    width: 520px;
+    display: flex;
+    justify-content: start;
+    background-color: gainsboro;
+    padding: 13px;
+    margin-top: 6px;
+    margin-left: 20px;
+    border-radius: 20px;
+    align-items: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input{
+    border: none;
+    background-color: gainsboro;
+    outline: none;
+    margin-left: 10px;
+    font-size: 17px;
+    
+}
+input .placeholder{
+    font-size: 50px;
+}
+
+.fa-magnifying-glass{
+    background-color: gainsboro;
+}
+
+#fa-gear{
+    margin-left: 30px;
+}
+
+.head-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+
+
+/* ========= Right ========== */
+.right{
+    width: 32%;
+    height: 100vh;
+
+}
+
+.right-column{
+    margin: 30px 50px;
+    border-radius: 10px;
+    width: 330px;
+    height: 350px;
+    border: 1px solid gainsboro;
+    position: fixed;
+}
+
+.div1{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div2{
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+
+.div3-1{
+    width: 280px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div3-2{
+    width: 280px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div3-3{
+    width: 280px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+h4{
+    margin-left: 15px;
+}
+
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(29, 147, 202);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.button{
+   display: flex;
+}
+
+
+
+.button-1{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(29, 147, 202);
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+.button-1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.button-2{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(29, 147, 202);
+    border: 1px solid white;
+    border-radius: 30px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: 400;
+}
+.button-2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
